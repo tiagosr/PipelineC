@@ -14,7 +14,9 @@
 // ICE40UP5K-SG48        ICE40UP
 // T8F81                 Trion T8 (Xyloni)
 // Ti60F225              Titanium
-#pragma PART "xc7a100tcsg324-1"
+// GW2AR-LV18QN88PC8:C   Gowin GW2AR-LV18 (Tang Nano 20K)
+
+#pragma PART "GW2AR-LV18QN88PC8:C"
 
 // More recent (and most likely test+working) examples towards the bottom of list \/
 // Please see: https://github.com/JulianKemmerer/PipelineC/wiki/Examples
@@ -73,6 +75,7 @@
 //#include "examples/internal_clocks.c"
 //#include "examples/arty/src/uart/uart_clk_step.c"
 //#include "examples/find_min_n.c"
-#include "vga/test_pattern.c"
+//#include "vga/test_pattern.c"
+#include "examples/audio/fmsynth/fmsynth.c"
 
 // Below is recent scratch work - enjoy
